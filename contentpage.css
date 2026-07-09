@@ -6,6 +6,11 @@
   align-items: center;
   flex-direction: column;
 }
+
+.contentpage-thq-memo-elm a {
+  text-decoration: none;
+  color: inherit;
+}
  
 .contentpage-thq-contentpage-elm {
   width: 100%;
