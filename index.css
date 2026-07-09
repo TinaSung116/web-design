@@ -1,0 +1,493 @@
+.indexpage-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.indexpage-thq-indexpage-elm {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: var(--dl-layout-space-twounits);
+  background-color: rgba(236, 224, 201, 1);
+}
+ 
+.indexpage-thq-book-elm {
+  top: 191px;
+  left: -36px;
+  width: 1511px;
+  height: 1301.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle2-elm {
+  top: 775px;
+  left: 0px;
+  width: 1511px;
+  height: 527px;
+  position: absolute;
+  box-sizing: content-box;
+}
+ 
+.indexpage-thq-rectangle1-elm {
+  top: 0px;
+  left: 134px;
+  width: 1243px;
+  height: 775px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+}
+ 
+.indexpage-thq-rectangle7-elm {
+  top: 524px;
+  left: 136px;
+  width: 1238px;
+  height: 259px;
+  position: absolute;
+  border-radius: 57px;
+}
+ 
+.indexpage-thq-shadow-elm {
+  top: 30px;
+  left: 188px;
+  width: 1114px;
+  height: 759px;
+  opacity: 0.44;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle6-elm {
+  top: 36px;
+  left: 188px;
+  width: 1114px;
+  height: 759px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle5-elm {
+  top: 795px;
+  left: 94px;
+  width: 1323px;
+  height: 476px;
+  position: absolute;
+  box-shadow: 0px 11px 5.400000095367432px 0px rgba(0, 0, 0, 0.25) ;
+  box-sizing: content-box;
+}
+ 
+.indexpage-thq-content-elm {
+  top: 222.61871337890625px;
+  left: 154.8009796142578px;
+  width: 1115.1407470703125px;
+  height: 757.7516479492188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-graph-paper-elm {
+  top: 757.7516479492188px;
+  left: 4.007713317871094px;
+  width: 752px;
+  height: 1111px;
+  position: absolute;
+}
+ 
+.indexpage-thq-cat-elm {
+  top: 184.38128662109375px;
+  left: 577.1990356445312px;
+  width: 534px;
+  height: 478px;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm1 {
+  top: 291.38128662109375px;
+  left: 118.19902801513672px;
+  color: rgba(116, 57, 39, 1);
+  width: 322px;
+  height: auto;
+  position: absolute;
+  font-size: 74.10830688476562px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Island Moments;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-text-elm2 {
+  top: 359.71771240234375px;
+  left: 118.19902801513672px;
+  color: rgba(116, 57, 39, 1);
+  width: 439px;
+  height: auto;
+  position: absolute;
+  font-size: 50.206092834472656px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo-elm {
+  top: 270px;
+  left: 38px;
+  width: 1362px;
+  height: 640.0027465820312px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-memo1home-elm {
+  top: 0px;
+  left: 1124px;
+  width: 225px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm1 {
+  top: 0px;
+  left: 0px;
+  width: 225px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm1 {
+  top: 0px;
+  left: 168px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm3 {
+  top: 2px;
+  left: 211.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo2-aboutme-elm {
+  top: 116px;
+  left: 1228px;
+  width: 134px;
+  height: 112.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 134px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm2 {
+  top: 0px;
+  left: 77px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm4 {
+  top: 7px;
+  left: 120.91087341308594px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo3my-work-elm {
+  top: 237px;
+  left: 1228px;
+  width: 134px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm3 {
+  top: 0px;
+  left: 0px;
+  width: 134px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm3 {
+  top: 0px;
+  left: 77px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm5 {
+  top: 2px;
+  left: 120.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo31my-work1-elm {
+  top: 406.00274658203125px;
+  left: 114px;
+  width: 114px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm4 {
+  top: -0.00274658203125px;
+  left: 0px;
+  width: 114px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm4 {
+  top: 0px;
+  left: -57px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm6 {
+  top: -2px;
+  left: -100.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo32my-work2-elm {
+  top: 523.0027465820312px;
+  left: 114px;
+  width: 114px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm5 {
+  top: -0.00274658203125px;
+  left: 0px;
+  width: 114px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm5 {
+  top: 0px;
+  left: -57px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm7 {
+  top: -2px;
+  left: -100.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-memo33my-work3-elm {
+  top: 640.0027465820312px;
+  left: 114px;
+  width: 114px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-rectangle8-elm6 {
+  top: -0.00274658203125px;
+  left: 0px;
+  width: 114px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.indexpage-thq-rectangle9-elm6 {
+  top: 0px;
+  left: -57px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.indexpage-thq-text-elm8 {
+  top: -2px;
+  left: -100.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.indexpage-thq-light-elm {
+  top: -78px;
+  left: 386px;
+  width: 667px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.indexpage-thq-ellipse1-elm {
+  top: 112px;
+  left: 255px;
+  width: 157px;
+  height: 102px;
+  position: absolute;
+}
+ 
+.indexpage-thq-polygon1-elm {
+  top: 0px;
+  left: 159px;
+  width: 350px;
+  height: 177px;
+  position: absolute;
+}
+ 
+.indexpage-link {
+  display: contents;
+}
+ 
+.indexpage-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.indexpage-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.indexpage-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

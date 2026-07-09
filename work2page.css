@@ -1,0 +1,549 @@
+.work2page-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.work2page-thq-work2page-elm1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(245, 221, 157, 1);
+}
+ 
+.work2page-thq-book-elm {
+  top: 191px;
+  left: 95px;
+  width: 1246px;
+  height: 1545px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle1-elm {
+  top: 0px;
+  left: 3px;
+  width: 1243px;
+  height: 775px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+}
+ 
+.work2page-thq-rectangle8-elm1 {
+  top: 770px;
+  left: 0px;
+  width: 1243px;
+  height: 775px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+}
+ 
+.work2page-thq-rectangle7-elm {
+  top: 516px;
+  left: 5px;
+  width: 1238px;
+  height: 259px;
+  position: absolute;
+  border-radius: 57px;
+}
+ 
+.work2page-thq-shadow-elm {
+  top: 30px;
+  left: 57px;
+  width: 1114px;
+  height: 759px;
+  opacity: 0.44;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle6-elm {
+  top: 36px;
+  left: 57px;
+  width: 1114px;
+  height: 759px;
+  position: absolute;
+}
+ 
+.work2page-thq-work2page-elm2 {
+  top: 222px;
+  left: 152px;
+  width: 1118.1407470703125px;
+  height: 1521.751953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-work2page2-elm {
+  top: 764px;
+  left: 0px;
+  width: 1118.1407470703125px;
+  height: 757.751953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle9-elm1 {
+  top: 0px;
+  left: 0px;
+  width: 1114px;
+  height: 733px;
+  position: absolute;
+}
+ 
+.work2page-thq-graph-paper-elm1 {
+  top: 757.751708984375px;
+  left: 7.0077056884765625px;
+  width: 752px;
+  height: 1111px;
+  position: absolute;
+}
+ 
+.work2page-thq-summarybook-elm {
+  top: 38px;
+  left: 91px;
+  width: 953px;
+  height: 671px;
+  position: absolute;
+}
+ 
+.work2page-thq-work2page1-elm {
+  top: 0px;
+  left: 3px;
+  width: 1115.1407470703125px;
+  height: 757.7516479492188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-graph-paper-elm2 {
+  top: 757.7515869140625px;
+  left: 4.007709503173828px;
+  width: 752px;
+  height: 1111px;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm10 {
+  top: 141.9998779296875px;
+  left: 67.00001525878906px;
+  color: rgba(116, 57, 39, 1);
+  width: 383px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-text-elm12 {
+  top: 144px;
+  left: 565px;
+  color: rgba(116, 57, 39, 1);
+  width: 439px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-text-elm15 {
+  top: 267px;
+  left: 53px;
+  color: rgba(116, 57, 39, 1);
+  width: 412px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo-elm {
+  top: 268px;
+  left: 38px;
+  width: 1362px;
+  height: 642.0029296875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-memo1home-elm {
+  top: 0px;
+  left: 1228px;
+  width: 134px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 134px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm2 {
+  top: 0px;
+  left: 77px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm16 {
+  top: 2px;
+  left: 120.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo2-aboutme-elm {
+  top: 117px;
+  left: 1228px;
+  width: 134px;
+  height: 112.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm3 {
+  top: 0px;
+  left: 0px;
+  width: 134px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm3 {
+  top: 0px;
+  left: 77px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm17 {
+  top: 7px;
+  left: 120.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo3my-work-elm {
+  top: 239px;
+  left: 1228px;
+  width: 134px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm4 {
+  top: 0px;
+  left: 0px;
+  width: 134px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm4 {
+  top: 0px;
+  left: 77px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm18 {
+  top: 2px;
+  left: 120.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo31my-work1-elm {
+  top: 408.002685546875px;
+  left: 114px;
+  width: 114px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm5 {
+  top: -0.00274658203125px;
+  left: 0px;
+  width: 114px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm5 {
+  top: 0px;
+  left: -57px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm19 {
+  top: -2px;
+  left: -100.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo32my-work2-elm {
+  top: 525.0027465820312px;
+  left: 191px;
+  width: 178px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm6 {
+  top: -0.0029296875px;
+  left: 0px;
+  width: 178px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm6 {
+  top: 0px;
+  left: -121px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm20 {
+  top: -2px;
+  left: -164.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-memo33my-work3-elm {
+  top: 642.002685546875px;
+  left: 114px;
+  width: 114px;
+  height: 107.00276184082031px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-rectangle8-elm7 {
+  top: -0.00274658203125px;
+  left: 0px;
+  width: 114px;
+  height: 105px;
+  position: absolute;
+}
+ 
+.work2page-thq-rectangle9-elm7 {
+  top: 0px;
+  left: -57px;
+  width: 57px;
+  height: 105px;
+  opacity: 0.50;
+  position: absolute;
+}
+ 
+.work2page-thq-text-elm21 {
+  top: -2px;
+  left: -100.910888671875px;
+  color: rgba(116, 57, 39, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 30.551189422607422px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IM FELL English SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.work2page-thq-light-elm {
+  top: -78px;
+  left: 386px;
+  width: 667px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.work2page-thq-polygon2-elm {
+  top: 30px;
+  left: 0px;
+  width: 667px;
+  height: 320px;
+  opacity: 0.28;
+  position: absolute;
+}
+ 
+.work2page-thq-ellipse1-elm {
+  top: 112px;
+  left: 255px;
+  width: 157px;
+  height: 102px;
+  position: absolute;
+}
+ 
+.work2page-thq-polygon1-elm {
+  top: 0px;
+  left: 159px;
+  width: 350px;
+  height: 177px;
+  position: absolute;
+}
+ 
+.work2page-link {
+  display: contents;
+}
+ 
+.work2page-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.work2page-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.work2page-text3 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
