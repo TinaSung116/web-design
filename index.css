@@ -437,7 +437,7 @@
 .indexpage-thq-light-elm {
   top: -78px;
   left: 386px;
-  width: 667px;
+  width: 552px;
   height: 350px;
   display: flex;
   position: absolute;
@@ -446,8 +446,9 @@
 }
 
 .indexpage-bg-img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
   display: block;
   object-fit: cover;
 }
