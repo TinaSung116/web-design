@@ -16,7 +16,7 @@
   width: 1362px;
   height: 900px;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
@@ -29,6 +29,7 @@
   width: 1511px;
   height: 1024px;
   margin: 0 auto;
+  flex-shrink: 0;
 }
  
 .contentpage-thq-book-elm {
