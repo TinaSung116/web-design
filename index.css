@@ -1,10 +1,10 @@
 .indexpage-container1 {
   width: 100%;
-  display: flex;
-  overflow: auto;
   min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  overflow: auto;
 }
 
 .indexpage-thq-memo-elm a {
@@ -435,7 +435,7 @@
 }
  
 .indexpage-thq-light-elm {
-  top: -78px;
+  top: -8px;
   left: 386px;
   width: 552px;
   height: 350px;

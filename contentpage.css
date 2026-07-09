@@ -1,10 +1,10 @@
 .contentpage-container1 {
   width: 100%;
-  display: flex;
-  overflow: auto;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  overflow: auto;
 }
 
 .contentpage-thq-memo-elm a {
@@ -220,6 +220,13 @@
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
+}
+
+.contentpage-bg-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
  
 .contentpage-thq-memo3my-work-elm {
