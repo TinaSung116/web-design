@@ -69,6 +69,10 @@
   width: 100%;
   height: 100%;
   display: block;
+  
+}
+.contentpage-info {
+  font-family: "IM FELL English SC", serif;
 }
 
 .contentpage-thq-memo-elm a {
