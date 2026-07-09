@@ -14,11 +14,9 @@
  
 .contentpage-thq-contentpage-elm {
   position: relative;
-  width: 100%;
+  width: 1511px;
   height: 1024px;
-  display: flex;
   overflow: hidden;
-  align-items: flex-start;
   margin: 0 auto;
   background-color: rgba(227, 141, 163, 1);
 }
@@ -27,19 +25,14 @@
   position: relative;
   width: 1511px;
   height: 1024px;
-  margin: 0 auto;
-  flex-shrink: 0;
 }
  
 .contentpage-thq-book-elm {
-  top: 191px;
-  left: -36px;
-  width: 1511px;
-  height: 1301.5px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  top: 0;
+  left: 0;
+  width: 1511px;
+  height: 1024px;
 }
  
 .contentpage-thq-rectangle2-elm {
@@ -100,14 +93,11 @@
 }
  
 .contentpage-thq-content-elm {
-  top: 222.61871337890625px;
-  left: 154.8009796142578px;
-  width: 1115.1407470703125px;
-  height: 757.7516479492188px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  top: 0;
+  left: 0;
+  width: 1511px;
+  height: 1024px;
 }
  
 .contentpage-thq-graph-paper-elm {
@@ -220,21 +210,18 @@
 }
  
 .contentpage-thq-memo-elm {
-  top: 270px;
-  left: 38px;
-  width: 1362px;
-  height: 642.0027465820312px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  top: 0;
+  left: 0;
+  width: 1511px;
+  height: 1024px;
 }
 
 .contentpage-bg-img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
  
 .contentpage-thq-memo3my-work-elm {
@@ -508,14 +495,11 @@
 }
  
 .contentpage-thq-light-elm {
-  top: -8px;
-  left: 386px;
-  width: 552px;
-  height: 350px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  top: 0;
+  left: 0;
+  width: 1511px;
+  height: 1024px;
 }
  
 .contentpage-thq-ellipse1-elm {
