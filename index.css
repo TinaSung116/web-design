@@ -444,6 +444,13 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
+
+.indexpage-bg-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
  
 .indexpage-thq-ellipse1-elm {
   top: 112px;
