@@ -1,326 +1,72 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
   <head>
-    <title>AboutMepage - exported project</title>
-    <meta property="og:title" content="AboutMepage - exported project" />
+    <title>About Me Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    
+    <link rel="stylesheet" href="style.css" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
+    <style>
+      /* Keep only page-specific container layouts inside the internal style tag */
+      html { 
+        height: 100%; 
+        scroll-behavior: smooth; 
+      }
+      body { 
+        margin: 0; 
+        min-height: 100%; 
+        background-color: #743927; 
+        display: flex;
+        flex-direction: column;
+      }
+      * { 
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0; 
       }
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background: var(--dl-color-theme-neutral-light);
+      .page-canvas-wrapper {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 20px; 
+      }
 
-        fill: var(--dl-color-theme-neutral-dark);
+      .canvas-frame {
+        position: relative;
+        width: 100%;
+        max-width: 1200px; 
+        top: -100px; 
+      }
+
+      .portfolio-layout-image {
+        width: 100%;
+        height: auto;     
+        display: block;
+        border-radius: 0px;
       }
     </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Island+Moments:wght@400&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Island+Moments:wght@400&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./about-mepage.css" rel="stylesheet" />
 
-      <div class="about-mepage-container1">
-        <div class="about-mepage-thq-about-mepage-elm">
-          <div class="about-mepage-thq-book-elm">
-            <img
-              src="public/rectangle13139-0zl-1300w.png"
-              alt="Rectangle13139"
-              class="about-mepage-thq-rectangle1-elm"
-            />
-            <img
-              src="public/rectangle83140-dckj-1300w.png"
-              alt="Rectangle83140"
-              class="about-mepage-thq-rectangle8-elm1"
-            />
-            <img
-              src="public/rectangle73141-p0ux-300h.png"
-              alt="Rectangle73141"
-              class="about-mepage-thq-rectangle7-elm"
-            />
-            <img
-              src="public/shadow3142-3vd.svg"
-              alt="Shadow3142"
-              class="about-mepage-thq-shadow-elm"
-            />
-            <img
-              src="public/rectangle63143-uzt.svg"
-              alt="Rectangle63143"
-              class="about-mepage-thq-rectangle6-elm"
-            />
-          </div>
-          <div class="about-mepage-thq-aboutme-page-elm">
-            <div class="about-mepage-thq-about-mepage1-elm">
-              <img
-                src="public/graphpaper3145-0hyp-1200h.png"
-                alt="GraphPaper3145"
-                class="about-mepage-thq-graph-paper-elm1"
-              />
-              <span class="about-mepage-thq-text-elm10">
-                <span>Hello, I'm Sung Ka Sin, but you can call me Tina.</span>
-                <br />
-                <br />
-                <span>
-                  I am a curious and creative individual who enjoys exploring
-                  new ideas and turning them into meaningful experiences. I am
-                  passionate about design, storytelling, and continuous
-                  learning, and I value creativity, collaboration, and personal
-                  growth.
-                </span>
-                <br />
-                <br />
-              </span>
-            </div>
-            <div class="about-mepage-thq-aboutme-page2-elm">
-              <img
-                src="public/rectangle93147-5ki.svg"
-                alt="Rectangle93147"
-                class="about-mepage-thq-rectangle9-elm1"
-              />
-              <img
-                src="public/graphpaper3148-hmjs-1200h.png"
-                alt="GraphPaper3148"
-                class="about-mepage-thq-graph-paper-elm2"
-              />
-              <span class="about-mepage-thq-text-elm13">
-                <span>
-                  Outside of design, I enjoy painting, playing the guitar and
-                  violin, podcasting, and filmmaking. These interests have
-                  shaped the way I observe the world and inspire the way I
-                  create.
-                </span>
-                <br />
-              </span>
-              <span class="about-mepage-thq-text-elm15">
-                I believe that growth comes from curiosity, reflection, and the
-                courage to keep improving. Through this portfolio, I hope to
-                share not only my work, but also my journey as a designer and
-                lifelong learner.
-              </span>
-            </div>
-          </div>
-          <div class="about-mepage-thq-memo-elm">
-            <div class="about-mepage-thq-memo1home-elm">
-              <img
-                src="public/rectangle83152-xiig-200h.png"
-                alt="Rectangle83152"
-                class="about-mepage-thq-rectangle8-elm2"
-              />
-              <img
-                src="public/rectangle93153-2o4c-200w.png"
-                alt="Rectangle93153"
-                class="about-mepage-thq-rectangle9-elm2"
-              />
-              <span class="about-mepage-thq-text-elm16">Home.</span>
-            </div>
-            <div class="about-mepage-thq-memo2-aboutme-elm">
-              <img
-                src="public/rectangle83156-4z3b-200h.png"
-                alt="Rectangle83156"
-                class="about-mepage-thq-rectangle8-elm3"
-              />
-              <img
-                src="public/rectangle93157-4s3-200w.png"
-                alt="Rectangle93157"
-                class="about-mepage-thq-rectangle9-elm3"
-              />
-              <span class="about-mepage-thq-text-elm17">About. Me</span>
-            </div>
-            <div class="about-mepage-thq-memo3my-work-elm">
-              <img
-                src="public/rectangle83160-r4yq-200h.png"
-                alt="Rectangle83160"
-                class="about-mepage-thq-rectangle8-elm4"
-              />
-              <img
-                src="public/rectangle93161-jndc-200w.png"
-                alt="Rectangle93161"
-                class="about-mepage-thq-rectangle9-elm4"
-              />
-              <span class="about-mepage-thq-text-elm18">Content</span>
-            </div>
-            <div class="about-mepage-thq-memo31my-work1-elm">
-              <img
-                src="public/rectangle83164-yjw-200h.png"
-                alt="Rectangle83164"
-                class="about-mepage-thq-rectangle8-elm5"
-              />
-              <img
-                src="public/rectangle93165-ulv4-200w.png"
-                alt="Rectangle93165"
-                class="about-mepage-thq-rectangle9-elm5"
-              />
-              <span class="about-mepage-thq-text-elm19">Work iii</span>
-            </div>
-            <div class="about-mepage-thq-memo32my-work2-elm">
-              <img
-                src="public/rectangle83168-wna-200h.png"
-                alt="Rectangle83168"
-                class="about-mepage-thq-rectangle8-elm6"
-              />
-              <img
-                src="public/rectangle93169-yf4t-200w.png"
-                alt="Rectangle93169"
-                class="about-mepage-thq-rectangle9-elm6"
-              />
-              <span class="about-mepage-thq-text-elm20">Work ii</span>
-            </div>
-            <div class="about-mepage-thq-memo33my-work3-elm">
-              <img
-                src="public/rectangle83172-6otw-200h.png"
-                alt="Rectangle83172"
-                class="about-mepage-thq-rectangle8-elm7"
-              />
-              <img
-                src="public/rectangle93173-rekt-200w.png"
-                alt="Rectangle93173"
-                class="about-mepage-thq-rectangle9-elm7"
-              />
-              <span class="about-mepage-thq-text-elm21">Work i</span>
-            </div>
-          </div>
-          <div class="about-mepage-thq-light-elm">
-            <img
-              src="public/polygon23175-zg8t.svg"
-              alt="Polygon23175"
-              class="about-mepage-thq-polygon2-elm"
-            />
-            <img
-              src="public/ellipse13176-8vol-200h.png"
-              alt="Ellipse13176"
-              class="about-mepage-thq-ellipse1-elm"
-            />
-            <img
-              src="public/polygon13177-3ip.svg"
-              alt="Polygon13177"
-              class="about-mepage-thq-polygon1-elm"
-            />
-          </div>
-          <div class="about-mepage-thq-image-elm">
-            <img
-              src="public/myphoto3179-7oyb-700h.png"
-              alt="MyPhoto3179"
-              class="about-mepage-thq-my-photo-elm"
-            />
-            <img
-              src="public/pawprints033180-48c-200h.png"
-              alt="Pawprints033180"
-              class="about-mepage-thq-pawprints03-elm"
-            />
-            <img
-              src="public/pawprints023181-56eq-200w.png"
-              alt="Pawprints023181"
-              class="about-mepage-thq-pawprints02-elm"
-            />
-            <img
-              src="public/pawprints013182-iubp-200h.png"
-              alt="Pawprints013182"
-              class="about-mepage-thq-pawprints01-elm"
-            />
-            <img
-              src="public/illustration033183-jvs-400h.png"
-              alt="Illustration033183"
-              class="about-mepage-thq-illustration03-elm"
-            />
-            <img
-              src="public/illustration023184-9ku3-400h.png"
-              alt="Illustration023184"
-              class="about-mepage-thq-illustration02-elm"
-            />
-            <img
-              src="public/illustration013185-3cm-300h.png"
-              alt="Illustration013185"
-              class="about-mepage-thq-illustration01-elm"
-            />
-          </div>
-        </div>
-        <a href="https://play.teleporthq.io/signup" class="about-mepage-link">
-          <div
-            aria-label="Sign up to TeleportHQ"
-            class="about-mepage-container2"
-          >
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 19 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="about-mepage-icon1"
-            >
-              <path
-                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
-                fill="#B23ADE"
-              ></path>
-              <path
-                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
-                fill="#FF5C5C"
-              ></path>
-              <path
-                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
-                fill="#2874DE"
-              ></path>
-            </svg>
-            <span class="about-mepage-text6">Built in TeleportHQ</span>
-          </div>
-        </a>
+    <div class="page-canvas-wrapper">
+      <div class="canvas-frame">
+        
+        <div id="navbar-container"></div>
+
+        <img 
+          src="/image/About Me.page.png" 
+          alt="About Me Layout Page" 
+          class="portfolio-layout-image" 
+        />
+        
       </div>
-      <link
-        rel="canonical"
-        href="https://web-designfinal-outcome-90sk65.teleporthq.site/about-mepage"
-      />
     </div>
+
+    <script src="navbar.js"></script>
   </body>
 </html>

@@ -32,6 +32,52 @@
   --dl-layout-space-oneandhalfunits: 24px;
 }
 
+
+
+
+/* INVISIBLE REUSABLE NAVBAR TAB OVERLAYS */
+.nav-tab {
+  position: absolute;
+  width: 100px;           /* Base default width */
+  height: 85px;           /* Base default height */
+  z-index: 99;            /* Ensures hitboxes sit strictly on top of the image */
+  opacity: 0;             /* Makes the buttons completely invisible */
+  cursor: pointer;        /* Changes the mouse pointer to a hand so users know it's a link */
+  
+  /* background-color: rgb(255, 0, 0); Ensures the are visible for debug */
+
+}
+
+.tab-home {
+  width: 120px;
+  top: 290px;
+  right: 35px;
+}
+.tab-about {
+  width: 120px;
+  top: 390px;
+  right: 45px;
+}
+.tab-content {
+  width: 120px;
+  top: 490px;
+  right: 35px;
+}
+
+/* --- Bottom Left Targets --- */
+.tab-work1 {
+  top: 540px;
+  left: 34px;
+}
+.tab-work2 {
+  top: 640px;
+  left: 34px;
+}
+.tab-work3 {
+  top: 737px;
+  left: 34px;
+}
+
 html,
 body {
   width: 100%;
@@ -540,11 +586,7 @@ body {
   transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
  
-.thq-button-animated:hover::before {
-  color: var(--dl-color-theme-neutral-light);
-  z-index: -1;
-  transform: scaleX(1);
-}
+
  
 .Content {
   font-size: 16px;

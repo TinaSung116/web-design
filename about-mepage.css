@@ -1,22 +1,25 @@
+
+
 .about-mepage-container1 {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow-y: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  /* Apply the background color here so it extends naturally to the bottom */
+  background-color: rgba(116, 57, 39, 1); 
 }
- 
+
 .about-mepage-thq-about-mepage-elm {
   width: 100%;
-  height: 1024px;
+  /* Removed duplicate min-height: 100vh to prevent bounding box clipping */
   display: flex;
   position: relative;
   align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(116, 57, 39, 1);
 }
- 
+
+
 .about-mepage-thq-book-elm {
   top: 191px;
   left: 95px;
@@ -25,448 +28,48 @@
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-rectangle1-elm {
-  top: 0px;
-  left: 3px;
-  width: 1243px;
-  height: 775px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 50px;
-}
- 
-.about-mepage-thq-rectangle8-elm1 {
-  top: 770px;
-  left: 0px;
-  width: 1243px;
-  height: 775px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 50px;
-}
- 
-.about-mepage-thq-rectangle7-elm {
-  top: 516px;
-  left: 5px;
-  width: 1238px;
-  height: 259px;
-  position: absolute;
-  border-radius: 57px;
-}
- 
-.about-mepage-thq-shadow-elm {
-  top: 30px;
-  left: 57px;
-  width: 1114px;
-  height: 759px;
-  opacity: 0.44;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle6-elm {
-  top: 36px;
-  left: 57px;
-  width: 1114px;
-  height: 759px;
-  position: absolute;
-}
- 
+
 .about-mepage-thq-aboutme-page-elm {
-  top: 222.0001220703125px;
+  top: 222px;
   left: 152px;
-  width: 1118.1407470703125px;
-  height: 1683.9998779296875px;
+  width: 1118px;
+  height: 1684px;
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
+
 .about-mepage-thq-about-mepage1-elm {
   top: 0px;
-  left: 2.9999847412109375px;
-  width: 1115.1407470703125px;
-  height: 757.7516479492188px;
+  left: 3px;
+  width: 1115px;
+  height: 758px;
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-graph-paper-elm1 {
-  top: 757.7515869140625px;
-  left: 4.007709503173828px;
-  width: 752px;
-  height: 1111px;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm10 {
-  top: 141.9998779296875px;
-  left: 67.00001525878906px;
-  color: rgba(116, 57, 39, 1);
-  width: 439px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
+
 .about-mepage-thq-aboutme-page2-elm {
-  top: 763.9998779296875px;
+  top: 764px;
   left: 0px;
-  width: 1118.1407470703125px;
+  width: 1118px;
   height: 920px;
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-rectangle9-elm1 {
-  top: 0px;
-  left: 0px;
-  width: 1114px;
-  height: 733px;
-  position: absolute;
-}
- 
-.about-mepage-thq-graph-paper-elm2 {
-  top: 757.751708984375px;
-  left: 7.0077056884765625px;
-  width: 752px;
-  height: 1111px;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm13 {
-  top: 105px;
-  left: 64px;
-  color: rgba(116, 57, 39, 1);
-  width: 457px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-text-elm15 {
-  top: 404px;
-  left: 456px;
-  color: rgba(116, 57, 39, 1);
-  width: 439px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
+
 .about-mepage-thq-memo-elm {
   top: 268px;
   left: 38px;
   width: 1362px;
-  height: 642.002685546875px;
+  height: 642px;
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-memo1home-elm {
-  top: 0px;
-  left: 1228px;
-  width: 134px;
-  height: 107.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm2 {
-  top: 0px;
-  left: 0px;
-  width: 134px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm2 {
-  top: 0px;
-  left: 77px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm16 {
-  top: 2px;
-  left: 120.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 30.551189422607422px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-memo2-aboutme-elm {
-  top: 117px;
-  left: 1120px;
-  width: 229px;
-  height: 112.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm3 {
-  top: 0px;
-  left: 0px;
-  width: 229px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm3 {
-  top: 0px;
-  left: 172px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm17 {
-  top: 7px;
-  left: 215.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-memo3my-work-elm {
-  top: 239px;
-  left: 1228px;
-  width: 134px;
-  height: 107.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm4 {
-  top: 0px;
-  left: 0px;
-  width: 134px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm4 {
-  top: 0px;
-  left: 77px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm18 {
-  top: 2px;
-  left: 120.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 26px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-memo31my-work1-elm {
-  top: 408.002685546875px;
-  left: 114px;
-  width: 114px;
-  height: 107.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm5 {
-  top: -0.00274658203125px;
-  left: 0px;
-  width: 114px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm5 {
-  top: 0px;
-  left: -57px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm19 {
-  top: -2px;
-  left: -100.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 28px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-memo32my-work2-elm {
-  top: 525.002685546875px;
-  left: 114px;
-  width: 114px;
-  height: 107.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm6 {
-  top: -0.00274658203125px;
-  left: 0px;
-  width: 114px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm6 {
-  top: 0px;
-  left: -57px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm20 {
-  top: -2px;
-  left: -100.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 30.551189422607422px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.about-mepage-thq-memo33my-work3-elm {
-  top: 642.002685546875px;
-  left: 114px;
-  width: 114px;
-  height: 107.00276184082031px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
- 
-.about-mepage-thq-rectangle8-elm7 {
-  top: -0.00274658203125px;
-  left: 0px;
-  width: 114px;
-  height: 105px;
-  position: absolute;
-}
- 
-.about-mepage-thq-rectangle9-elm7 {
-  top: 0px;
-  left: -57px;
-  width: 57px;
-  height: 105px;
-  opacity: 0.50;
-  position: absolute;
-}
- 
-.about-mepage-thq-text-elm21 {
-  top: -2px;
-  left: -100.910888671875px;
-  color: rgba(116, 57, 39, 1);
-  width: 105px;
-  height: auto;
-  position: absolute;
-  font-size: 30.551189422607422px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IM FELL English SC;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
+
 .about-mepage-thq-light-elm {
   top: -78px;
   left: 386px;
@@ -475,34 +78,8 @@
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-polygon2-elm {
-  top: 30px;
-  left: 0px;
-  width: 667px;
-  height: 320px;
-  opacity: 0.28;
-  position: absolute;
-}
- 
-.about-mepage-thq-ellipse1-elm {
-  top: 112px;
-  left: 255px;
-  width: 157px;
-  height: 102px;
-  position: absolute;
-}
- 
-.about-mepage-thq-polygon1-elm {
-  top: 0px;
-  left: 159px;
-  width: 350px;
-  height: 177px;
-  position: absolute;
-}
- 
+
 .about-mepage-thq-image-elm {
   top: 231px;
   left: 214px;
@@ -511,97 +88,97 @@
   display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 1;
 }
- 
-.about-mepage-thq-my-photo-elm {
-  top: 0px;
-  left: 522px;
-  width: 494px;
-  height: 658px;
+
+.about-mepage-thq-text-elm10,
+.about-mepage-thq-text-elm13,
+.about-mepage-thq-text-elm15,
+.about-mepage-thq-text-elm16,
+.about-mepage-thq-text-elm17,
+.about-mepage-thq-text-elm18,
+.about-mepage-thq-text-elm19,
+.about-mepage-thq-text-elm20,
+.about-mepage-thq-text-elm21 {
+  color: rgba(116, 57, 39, 1);
   position: absolute;
+  font-family: 'IM FELL English SC', serif;
+  font-weight: 400;
+  text-align: left;
 }
- 
-.about-mepage-thq-pawprints03-elm {
-  top: 540px;
-  left: 465px;
-  width: 75px;
-  height: 70px;
-  position: absolute;
+
+.about-mepage-thq-text-elm10 { top: 142px; left: 67px; width: 439px; font-size: 30px; }
+.about-mepage-thq-text-elm13 { top: 105px; left: 64px; width: 457px; font-size: 30px; }
+.about-mepage-thq-text-elm15 { top: 404px; left: 456px; width: 439px; font-size: 30px; }
+.about-mepage-thq-text-elm16 { top: 2px; left: 121px; width: 105px; font-size: 31px; }
+.about-mepage-thq-text-elm17 { top: 7px; left: 216px; width: 105px; font-size: 20px; }
+.about-mepage-thq-text-elm18 { top: 2px; left: 121px; width: 105px; font-size: 26px; }
+.about-mepage-thq-text-elm19 { top: -2px; left: -101px; width: 105px; font-size: 28px; }
+.about-mepage-thq-text-elm20 { top: -2px; left: -101px; width: 105px; font-size: 31px; }
+.about-mepage-thq-text-elm21 { top: -2px; left: -101px; width: 105px; font-size: 31px; }
+
+
+
+.about-mepage-thq-memo1home-elm       { top: 0px; left: 1228px; width: 134px; height: 107px; display: flex; position: absolute; align-items: flex-start; }
+.about-mepage-thq-memo2-aboutme-elm   { top: 117px; left: 1120px; width: 229px; height: 112px; display: flex; position: absolute; align-items: flex-start; }
+.about-mepage-thq-memo3my-work-elm    { top: 239px; left: 1228px; width: 134px; height: 107px; display: flex; position: absolute; align-items: flex-start; }
+.about-mepage-thq-memo31my-work1-elm  { top: 408px; left: 114px; width: 114px; height: 107px; display: flex; position: absolute; align-items: flex-start; }
+.about-mepage-thq-memo32my-work2-elm  { top: 525px; left: 114px; width: 114px; height: 107px; display: flex; position: absolute; align-items: flex-start; }
+.about-mepage-thq-memo33my-work3-elm  { top: 642px; left: 114px; width: 114px; height: 107px; display: flex; position: absolute; align-items: flex-start; }
+
+.about-mepage-thq-rectangle8-elm2 { top: 0px; left: 0px; width: 134px; }
+.about-mepage-thq-rectangle9-elm2 { top: 0px; left: 77px; width: 57px; opacity: 0.50; }
+.about-mepage-thq-rectangle8-elm3 { top: 0px; left: 0px; width: 229px; }
+.about-mepage-thq-rectangle9-elm3 { top: 0px; left: 172px; width: 57px; opacity: 0.50; }
+.about-mepage-thq-rectangle8-elm4 { top: 0px; left: 0px; width: 134px; }
+.about-mepage-thq-rectangle9-elm4 { top: 0px; left: 77px; width: 57px; opacity: 0.50; }
+.about-mepage-thq-rectangle8-elm5 { top: 0px; left: 0px; width: 114px; }
+.about-mepage-thq-rectangle9-elm5 { top: 0px; left: -57px; width: 57px; opacity: 0.50; }
+.about-mepage-thq-rectangle8-elm6 { top: 0px; left: 0px; width: 114px; }
+.about-mepage-thq-rectangle9-elm6 { top: 0px; left: -57px; width: 57px; opacity: 0.50; }
+.about-mepage-thq-rectangle8-elm7 { top: 0px; left: 0px; width: 114px; }
+.about-mepage-thq-rectangle9-elm7 { top: 0px; left: -57px; width: 57px; opacity: 0.50; }
+
+.about-mepage-thq-graph-paper-elm1 { top: 758px; left: 4px; width: 752px; height: 1111px; position: absolute; }
+.about-mepage-thq-graph-paper-elm2 { top: 758px; left: 7px; width: 752px; height: 1111px; position: absolute; }
+.about-mepage-thq-polygon2-elm     { top: 30px; left: 0px; width: 667px; height: 320px; position: absolute; opacity: 0.28; }
+.about-mepage-thq-ellipse1-elm     { top: 112px; left: 255px; width: 157px; height: 102px; position: absolute; }
+.about-mepage-thq-polygon1-elm     { top: 0px; left: 159px; width: 350px; height: 177px; position: absolute; }
+.about-mepage-thq-my-photo-elm     { top: 0px; left: 522px; width: 494px; height: 658px; position: absolute; }
+.about-mepage-thq-pawprints03-elm  { top: 540px; left: 465px; width: 75px; height: 70px; position: absolute; }
+.about-mepage-thq-pawprints02-elm  { top: 454px; left: 484px; width: 75px; height: 70px; position: absolute; }
+.about-mepage-thq-pawprints01-elm  { top: 391px; left: 447px; width: 71px; height: 66px; position: absolute; }
+.about-mepage-thq-illustration03-elm { top: 1137px; left: 732px; width: 322px; height: 322px; position: absolute; }
+.about-mepage-thq-illustration02-elm { top: 829px; left: 524px; width: 416px; height: 308px; position: absolute; }
+.about-mepage-thq-illustration01-elm { top: 1213px; left: 0px; width: 207px; height: 207px; position: absolute; }
+
+
+.about-mepage-link { 
+  display: contents; 
 }
- 
-.about-mepage-thq-pawprints02-elm {
-  top: 454px;
-  left: 483.94866943359375px;
-  width: 75px;
-  height: 70px;
-  position: absolute;
-}
- 
-.about-mepage-thq-pawprints01-elm {
-  top: 391px;
-  left: 447.06756591796875px;
-  width: 71px;
-  height: 66px;
-  position: absolute;
-}
- 
-.about-mepage-thq-illustration03-elm {
-  top: 1137px;
-  left: 732px;
-  width: 322px;
-  height: 322px;
-  position: absolute;
-}
- 
-.about-mepage-thq-illustration02-elm {
-  top: 829px;
-  left: 524px;
-  width: 416px;
-  height: 308px;
-  position: absolute;
-}
- 
-.about-mepage-thq-illustration01-elm {
-  top: 1213px;
-  left: 0px;
-  width: 207px;
-  height: 207px;
-  position: absolute;
-}
- 
-.about-mepage-link {
-  display: contents;
-}
- 
+
 .about-mepage-container2 {
   right: 50px;
-  border: 1px solid #ffffff5c;
   bottom: 30px;
   display: flex;
-  z-index: 22;
   position: fixed;
-  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
-  min-height: auto;
+  z-index: 22;
   align-items: center;
-  padding-top: 8px;
-  padding-left: 12px;
+  padding: 8px 12px;
+  border: 1px solid #ffffff5c;
   border-radius: 8px;
-  padding-right: 12px;
-  padding-bottom: 8px;
-  backdrop-filter: blur(6px);
   background-color: rgba(41, 41, 41, 0.41);
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  backdrop-filter: blur(6px);
 }
- 
+
 .about-mepage-icon1 {
   width: 24px;
   margin-right: 4px;
 }
- 
+
 .about-mepage-text6 {
   color: white;
   font-size: 13px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
 }
