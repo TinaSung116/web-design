@@ -4,7 +4,7 @@ function loadNavbar() {
 
   container.innerHTML = `
     <a href="index.html" class="nav-tab tab-home">Home</a>
-    <a href="about.html" class="nav-tab tab-about">About</a>
+    <a href="about-mepage.html" class="nav-tab tab-about">About</a>
     <a href="contentpage.html" class="nav-tab tab-content">Content</a>
 
     <a href="work1page.html" class="nav-tab tab-work1">Work I</a>

@@ -1,282 +1,74 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
   <head>
-    <title>Work2page - exported project</title>
-    <meta property="og:title" content="Work2page - exported project" />
+    <title>Work2page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    
+    <link rel="stylesheet" href="./style.css" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+      html { line-height: 1.15; scroll-behavior: smooth; height: 100%; }
+      body { margin: 0; min-height: 100%; }
+      * { box-sizing: border-box; border-width: 0; border-style: solid; -webkit-font-smoothing: antialiased; }
+      p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption { margin: 0; padding: 0; }
+      a { color: inherit; text-decoration: inherit; }
+      img { display: block; }
     </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
+    
+    <style>
       body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background: var(--dl-color-theme-neutral-light);
+        background-color: #F5DE9E; /* Main solid backdrop color canvas */
+        display: flex;
+        flex-direction: column;
+      }
 
-        fill: var(--dl-color-theme-neutral-dark);
+      /* Flex layout wrapper to cleanly center your picture asset */
+      .page-canvas-wrapper {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 20px; 
+      }
+
+      /* Consistent coordinate framework boundaries */
+      .canvas-frame {
+        position: relative;
+        width: 100%;
+        max-width: 1200px; 
+        top: -100px; /* Aligns natively with your layout shift settings */
+      }
+
+      /* Base layout picture presentation settings */
+      .portfolio-layout-image {
+        width: 100%;
+        height: auto;     
+        display: block;
+        border-radius: 0px;
       }
     </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Island+Moments:wght@400&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Island+Moments:wght@400&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./work2page.css" rel="stylesheet" />
 
-      <div class="work2page-container1">
-        <div class="work2page-thq-work2page-elm1">
-          <div class="work2page-thq-book-elm">
-            <img
-              src="public/rectangle11134-hwf-1300w.png"
-              alt="Rectangle11134"
-              class="work2page-thq-rectangle1-elm"
-            />
-            <img
-              src="public/rectangle81134-jfkh-1300w.png"
-              alt="Rectangle81134"
-              class="work2page-thq-rectangle8-elm1"
-            />
-            <img
-              src="public/rectangle71134-etoz-300h.png"
-              alt="Rectangle71134"
-              class="work2page-thq-rectangle7-elm"
-            />
-            <img
-              src="public/shadow1134-47k.svg"
-              alt="Shadow1134"
-              class="work2page-thq-shadow-elm"
-            />
-            <img
-              src="public/rectangle61134-nauw.svg"
-              alt="Rectangle61134"
-              class="work2page-thq-rectangle6-elm"
-            />
-          </div>
-          <div class="work2page-thq-work2page-elm2">
-            <div class="work2page-thq-work2page2-elm">
-              <img
-                src="public/rectangle91135-ppn9.svg"
-                alt="Rectangle91135"
-                class="work2page-thq-rectangle9-elm1"
-              />
-              <img
-                src="public/graphpaper1135-ir6s-1200h.png"
-                alt="GraphPaper1135"
-                class="work2page-thq-graph-paper-elm1"
-              />
-              <img
-                src="public/summarybook1813-uco8-1000w.png"
-                alt="summarybook1813"
-                class="work2page-thq-summarybook-elm"
-              />
-            </div>
-            <div class="work2page-thq-work2page1-elm">
-              <img
-                src="public/graphpaper1135-h8ku-1200h.png"
-                alt="GraphPaper1135"
-                class="work2page-thq-graph-paper-elm2"
-              />
-              <span class="work2page-thq-text-elm10">
-                <span>FOUR-DAY WORK WEEK</span>
-                <br />
-              </span>
-              <span class="work2page-thq-text-elm12">
-                <span>
-                  Created for an HK4As competition, this campaign explores the
-                  idea of a four-day work week through humour and satire.
-                </span>
-                <br />
-                <span>
-                  Drawing inspiration from the Cantonese phrase
-                  「返五日做狗，貔貅都要唞」, the project uses local cultural
-                  references to visualise employee burnout and promote healthier
-                  work-life balance.
-                </span>
-              </span>
-              <span class="work2page-thq-text-elm15">
-                「返五日做狗，貔貅都要唞」
-              </span>
-            </div>
-          </div>
-          <div class="work2page-thq-memo-elm">
-            <div class="work2page-thq-memo1home-elm">
-              <img
-                src="public/rectangle81136-xahr-200h.png"
-                alt="Rectangle81136"
-                class="work2page-thq-rectangle8-elm2"
-              />
-              <img
-                src="public/rectangle91136-dy7n-200w.png"
-                alt="Rectangle91136"
-                class="work2page-thq-rectangle9-elm2"
-              />
-              <span class="work2page-thq-text-elm16">Home.</span>
-            </div>
-            <div class="work2page-thq-memo2-aboutme-elm">
-              <img
-                src="public/rectangle81136-p19h-200h.png"
-                alt="Rectangle81136"
-                class="work2page-thq-rectangle8-elm3"
-              />
-              <img
-                src="public/rectangle91136-z26p-200w.png"
-                alt="Rectangle91136"
-                class="work2page-thq-rectangle9-elm3"
-              />
-              <span class="work2page-thq-text-elm17">About. Me</span>
-            </div>
-            <div class="work2page-thq-memo3my-work-elm">
-              <img
-                src="public/rectangle81136-d9r-200h.png"
-                alt="Rectangle81136"
-                class="work2page-thq-rectangle8-elm4"
-              />
-              <img
-                src="public/rectangle91136-mf3u-200w.png"
-                alt="Rectangle91136"
-                class="work2page-thq-rectangle9-elm4"
-              />
-              <span class="work2page-thq-text-elm18">Content</span>
-            </div>
-            <div class="work2page-thq-memo31my-work1-elm">
-              <img
-                src="public/rectangle81137-jjc9-200h.png"
-                alt="Rectangle81137"
-                class="work2page-thq-rectangle8-elm5"
-              />
-              <img
-                src="public/rectangle91137-828a-200w.png"
-                alt="Rectangle91137"
-                class="work2page-thq-rectangle9-elm5"
-              />
-              <span class="work2page-thq-text-elm19">Work iii</span>
-            </div>
-            <div class="work2page-thq-memo32my-work2-elm">
-              <img
-                src="public/rectangle81137-lgc-200h.png"
-                alt="Rectangle81137"
-                class="work2page-thq-rectangle8-elm6"
-              />
-              <img
-                src="public/rectangle91137-tcmd-200w.png"
-                alt="Rectangle91137"
-                class="work2page-thq-rectangle9-elm6"
-              />
-              <span class="work2page-thq-text-elm20">Work ii</span>
-            </div>
-            <div class="work2page-thq-memo33my-work3-elm">
-              <img
-                src="public/rectangle81138-0jof-200h.png"
-                alt="Rectangle81138"
-                class="work2page-thq-rectangle8-elm7"
-              />
-              <img
-                src="public/rectangle91138-7kml-200w.png"
-                alt="Rectangle91138"
-                class="work2page-thq-rectangle9-elm7"
-              />
-              <span class="work2page-thq-text-elm21">Work i</span>
-            </div>
-          </div>
-          <div class="work2page-thq-light-elm">
-            <img
-              src="public/polygon21138-ujf.svg"
-              alt="Polygon21138"
-              class="work2page-thq-polygon2-elm"
-            />
-            <img
-              src="public/ellipse11138-5n6e-200h.png"
-              alt="Ellipse11138"
-              class="work2page-thq-ellipse1-elm"
-            />
-            <img
-              src="public/polygon11138-swhp.svg"
-              alt="Polygon11138"
-              class="work2page-thq-polygon1-elm"
-            />
-          </div>
+      <div class="page-canvas-wrapper">
+        <div class="canvas-frame">
+          
+          <div id="navbar-container"></div>
+
+          <img 
+            src="image/Work2.page.png" 
+            alt="Work 2 Layout Page Background" 
+            class="portfolio-layout-image" 
+          />
+          
         </div>
-        <a href="https://play.teleporthq.io/signup" class="work2page-link">
-          <div aria-label="Sign up to TeleportHQ" class="work2page-container2">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 19 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="work2page-icon1"
-            >
-              <path
-                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
-                fill="#B23ADE"
-              ></path>
-              <path
-                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
-                fill="#FF5C5C"
-              ></path>
-              <path
-                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
-                fill="#2874DE"
-              ></path>
-            </svg>
-            <span class="work2page-text3">Built in TeleportHQ</span>
-          </div>
-        </a>
       </div>
-      <link
-        rel="canonical"
-        href="https://web-designfinal-outcome-90sk65.teleporthq.site/work2page"
-      />
     </div>
+
+    <script src="navbar.js"></script>
   </body>
 </html>

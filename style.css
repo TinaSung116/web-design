@@ -44,7 +44,7 @@
   opacity: 0;             /* Makes the buttons completely invisible */
   cursor: pointer;        /* Changes the mouse pointer to a hand so users know it's a link */
   
-  /* background-color: rgb(255, 0, 0); Ensures the are visible for debug */
+  background-color: rgb(255, 0, 0); /*Ensures they are visible for debug */
 
 }
 
@@ -66,7 +66,7 @@
 
 /* --- Bottom Left Targets --- */
 .tab-work1 {
-  top: 540px;
+  top: 737px;
   left: 34px;
 }
 .tab-work2 {
@@ -74,7 +74,7 @@
   left: 34px;
 }
 .tab-work3 {
-  top: 737px;
+  top: 545px;
   left: 34px;
 }
 
