@@ -41,7 +41,7 @@
   width: 100px;           /* Base default width */
   height: 85px;           /* Base default height */
   z-index: 99;            /* Ensures hitboxes sit strictly on top of the image */
-  opacity: 50;             /* Makes the buttons completely invisible */
+  opacity: 0;             /* Makes the buttons completely invisible */
   cursor: pointer;        /* Changes the mouse pointer to a hand so users know it's a link */
   
   background-color: rgb(255, 0, 0); /*Ensures they are visible for debug */
